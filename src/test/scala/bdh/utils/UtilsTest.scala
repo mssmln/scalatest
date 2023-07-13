@@ -21,7 +21,8 @@ class UtilsTest extends AnyFlatSpec with Matchers {
     val arr = Array(10, 15, 3, 7)
     val int = 17
     val problem1 = new Utils().problem1(arr, int)
-    assert(problem1(0)(0) == 10 && problem1(0)(1) == 7)
+    problem1(0)(0) shouldEqual 10
+    problem1(0)(1) shouldEqual 7
   }
 
 }

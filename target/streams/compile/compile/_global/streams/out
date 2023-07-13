@@ -1,7 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0mC:\unipol_project\MyScalaTest\src\main\scala\bdh\utils\Utils.scala:17:20: reassignment to val[0m
-[0m[[0m[31merror[0m] [0m[0m          arMatchK = arMatchK :+ it[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\unipol_project\MyScalaTest\src\main\scala\bdh\utils\Utils.scala:18:20: reassignment to val[0m
-[0m[[0m[31merror[0m] [0m[0m          arMatchK = arMatchK :+ el[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[debug] Acquiring lock on file C:\unipol_project\MyScalaTest\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
+[debug] Releasing lock on file C:\unipol_project\MyScalaTest\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.

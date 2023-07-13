@@ -1,32 +1,37 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ReturnCorrectLengthStringTest, org.scalatest.tools.Framework$$anon$1@6dd61356, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestIntIsEven, org.scalatest.tools.Framework$$anon$1@6dd61356, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MyTestFunction, org.scalatest.tools.Framework$$anon$1@6dd61356, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestReverseString, org.scalatest.tools.Framework$$anon$1@6dd61356, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MyTest, org.scalatest.tools.Framework$$anon$1@6dd61356, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(UtilsTest, org.scalatest.tools.Framework$$anon$1@6dd61356, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mMyTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return true if the given number is positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mMyTestFunction:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return true for odd numbers[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BankAccountTest, org.scalatest.tools.Framework$$anon$1@16189be5, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestReverseString, org.scalatest.tools.Framework$$anon$1@16189be5, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MyTest, org.scalatest.tools.Framework$$anon$1@16189be5, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(UtilsTest, org.scalatest.tools.Framework$$anon$1@16189be5, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MyTestFunction, org.scalatest.tools.Framework$$anon$1@16189be5, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ReturnCorrectLengthStringTest, org.scalatest.tools.Framework$$anon$1@16189be5, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestIntIsEven, org.scalatest.tools.Framework$$anon$1@16189be5, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mTestReverseString:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[33m- should be reversed !!! IGNORED !!![0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mReturnCorrectLengthStringTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct string's length as integer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBankAccountTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA bank account[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mTestIntIsEven:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mThe integer[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should be even[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw InsufficientFundsException when withdrawing more than the account balance[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMyTestFunction:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return true for odd numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMyTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return true if the given number is positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mReturnCorrectLengthStringTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct string's length as integer[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mUtilsTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should assert the equality of two integers without Matchers[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should assert the equality of two integers with Matchers[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mThe method problem1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return a 2D array containing 10 and 7[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 314 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 7[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 1, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 336 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 7, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 1, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	TestIntIsEven[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BankAccountTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UtilsTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	TestReverseString[0m
 [0m[[0m[0mdebug[0m] [0m[0m	MyTest[0m
